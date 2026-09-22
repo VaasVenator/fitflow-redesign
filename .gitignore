@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build and coverage output
+dist/
+build/
+coverage/
+
+# Editor and OS files
+.vscode/
+.DS_Store
